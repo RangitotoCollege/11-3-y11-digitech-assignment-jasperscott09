@@ -35,3 +35,7 @@ p {
   border-radius: 8px;
   transition: 0.3s;
 }
+
+.btn:hover {
+  background: #e68900;
+}
