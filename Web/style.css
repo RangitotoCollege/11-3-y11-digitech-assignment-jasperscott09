@@ -1,41 +1,112 @@
-body {
+* {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #1e3c72, #2a5298);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
 }
 
 .container {
-  max-width: 600px;
-  padding: 20px;
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
 }
 
-h1 {
-  font-size: 3em;
-  margin-bottom: 0.5em;
+header {
+  background: #1e1e2f;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-p {
-  font-size: 1.2em;
-  margin-bottom: 1.5em;
+header h1 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  top: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffd369;
 }
 
 .btn {
   display: inline-block;
-  padding: 12px 24px;
-  background: #ff9800;
-  color: white;
+  margin: 30px auto;
+  padding: 12px 25px;
+  background: #ffd369;
+  color: #1e1e2f;
+  font-weight: bold;
+  border-radius: 25px;
   text-decoration: none;
-  font-size: 1.1em;
-  border-radius: 8px;
-  transition: 0.3s;
+  transition: background 0.3s ease;
 }
 
 .btn:hover {
-  background: #e68900;
+  background: #ffb703;
+}
+
+section {
+  padding: 50px 20px;
+  text-align: center;
+  background: #fff;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #1e1e2f;
+}
+
+section p {
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+#lessons ul {
+  list-style: disc;
+  padding-left: 40px;
+  text-align: left;
+  max-width: 700px;
+  margin: auto;
+}
+
+#contact p {
+  margin-bottom: 15px;
+}
+
+#contact li {
+  list-style: none;
+  font-weight: bold;
+  color: #444;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #1e1e2f;
+  color: #fff;
+  margin-top: 30px;
 }
