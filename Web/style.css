@@ -110,3 +110,21 @@ footer {
   color: #fff;
   margin-top: 30px;
 }
+
+.image-box {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image-box img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 15px rgba(255, 152, 0, 0.6);
+}
