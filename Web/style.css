@@ -128,3 +128,8 @@ footer {
   transform: scale(1.03);
   box-shadow: 0 0 15px rgba(255, 152, 0, 0.6);
 }
+
+nav a.active {
+  color: #ff9800;
+  border-bottom: 2px solid #ff9800;
+}
