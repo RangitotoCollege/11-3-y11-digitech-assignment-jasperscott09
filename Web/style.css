@@ -158,3 +158,37 @@ p, li {
   color: #00bfff;
   text-decoration: underline;
 }
+
+.exercise {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.btn {
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #0095cc;
+}
+
+.hidden {
+  display: none;
+}
+
+.preview-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
