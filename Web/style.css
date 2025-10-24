@@ -29,6 +29,7 @@ header {
 header h1 {
   margin-bottom: 15px;
   font-size: 2rem;
+  color: white;
 }
 
 nav ul {
